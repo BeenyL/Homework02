@@ -7,9 +7,9 @@ public class Inventory : MonoBehaviour
     public Equipment[] CurrentEquipment;
     public PlayerStats stats;
 
-    public void TakeDamage()
+public void TakeDamage(float value)
     {
-        stats.CurrentHealth -= (stats.DamageIntakeBase);
+        stats.CurrentHealth -= (stats.DamageIntakeBase - value);
     }
 
     public void ResetHealth()
