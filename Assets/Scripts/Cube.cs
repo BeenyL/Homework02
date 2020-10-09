@@ -4,9 +4,15 @@ using UnityEngine;
 
 public class Cube : MonoBehaviour
 {
+    public float baseSize = 1f;
     void Start()
     {
         GenerateColor();
+    }
+
+    private void Update()
+    {
+        transform.localScale = Vector3.one * baseSize;
     }
 
     public void GenerateColor()

@@ -23,5 +23,9 @@ public class CubeEditor : Editor
         }
 
         GUILayout.EndHorizontal();
+
+        GUILayout.Label("Changes the Size of the Cube");
+        cube.baseSize = EditorGUILayout.Slider("Size", cube.baseSize, .1f, 2f);
+        cube.transform.localScale = Vector3.one * cube.baseSize;
     }
 }
