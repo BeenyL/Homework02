@@ -493,22 +493,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentEquipment:
-  - name: Deathcap
+  - name: Hard Hat
     Type: 0
-    RarityType: 4
-    defense: 1
-  - name: Thornmail
+    RarityType: 0
+    defense: 5
+  - name: Cloth Armor
     Type: 1
-    RarityType: 3
-    defense: 2
-  - name: Boots of Switftness
-    Type: 3
+    RarityType: 1
+    defense: 5
+  - name: Iron Leggings
+    Type: 2
     RarityType: 2
-    defense: 3
+    defense: 10
+  - name: Boots of Swiftness
+    Type: 3
+    RarityType: 4
+    defense: 10
   stats:
     Health: 1000
-    CurrentHealth: 1000
-    DamageIntakeBase: 40
+    CurrentHealth: 980
+    DamageIntakeBase: 50
 --- !u!1 &1981798756
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,6 +4,7 @@ using UnityEngine;
 [CustomPropertyDrawer(typeof(Equipment))]
 public class EquipmentDrawer : PropertyDrawer
 {
+    //Currently equipped GUI
     public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
     {
         EditorGUI.BeginProperty(position, label, property);
